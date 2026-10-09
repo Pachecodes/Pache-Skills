@@ -1,0 +1,28 @@
+{
+  "goal": "",
+  "baseline_identity": "",
+  "candidate_identity": "",
+  "owner": "",
+  "writable_paths": [],
+  "read_only_paths": [],
+  "acceptance_cases": [],
+  "evaluator_pins": {},
+  "forbidden_effects": [
+    "publication",
+    "deployment",
+    "external_sends",
+    "provider_spending"
+  ],
+  "limits": {
+    "minutes": 20,
+    "repairs": 2,
+    "makers": 1,
+    "checkers": 1
+  },
+  "stop_conditions": [
+    "authority_refusal",
+    "integrity_failure",
+    "missing_prerequisite",
+    "budget_exhaustion"
+  ]
+}
